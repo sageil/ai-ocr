@@ -1,0 +1,11 @@
+[project]
+name = "ai-ocr"
+version = "0.1.0"
+description = "Extract image content to json"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Sammy Ageil" }]
+dependencies = [
+  "dotenv>=0.9.9",
+  "openai>=1.91.0",
+]
