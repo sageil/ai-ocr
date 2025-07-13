@@ -28,7 +28,12 @@ API_VERSION=v1
 MODEL_NAME=qwen/qwen2.5-vl-7b # Model must support vision
 ```
 
-## Running the Project
+## Running the Project using Docker
+1.  **Navigate to the project directory**: Open your terminal and navigate to the `ai-ocr` directory.
+2.  **Build** the image using  `docker image build -t aiocr .`
+3.  **Run** the container using `docker container run --rm --network host -it --name aiocr aiocr:latest`
+
+## Running the Project Locally
 1.  **Navigate to the project directory**: Open your terminal and navigate to the `ai-ocr` directory.
 2.  **Run the main script**: Execute the main Python script to start the AI OCR process:
 
