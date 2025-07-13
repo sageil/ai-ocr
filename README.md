@@ -21,7 +21,7 @@ OpenAI compatible local LLM-based OCR tool using LM Studio or Ollama
 2.  **Rename** the included `example.env` to `.env`. Change the following environment variables replacing the default values with your environment's specific values:
 
  ```bash
-API_HOST="http://localhost"
+API_HOST=http://localhost
 API_KEY=NA
 API_PORT=1234 # change to 11434 if you are using Ollama
 API_VERSION=v1
