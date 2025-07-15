@@ -8,7 +8,7 @@ OpenAI compatible local LLM-based OCR tool using LM Studio or Ollama
 2. **Python 3.13+**: Make sure you have Python 3.13 or a later version installed on your system. You can check your Python version by running `python --version` or `python3 --version` in your terminal.
 3. **uv**: recommended Python package manager. You can install it from [https://docs.astral.sh/uv/getting-started/installation/](https://docs.astral.sh/uv/getting-started/installation/)
 4.  **vision enabled model**: This project uses `qwen/qwen2.5-vl-7b` Try it online [https://huggingface.co/spaces/GanymedeNil/Qwen2-VL-7B](https://huggingface.co/spaces/GanymedeNil/Qwen2-VL-7B). To use with **LM Studio** download it from [https://lmstudio.ai/models/qwen/qwen2.5-vl-7b] (https://lmstudio.ai/models/qwen/qwen2.5-vl-7b) and to use **Ollama** install it from [https://ollama.com/library/qwen2.5vl](https://ollama.com/library/qwen2.5vl)
-5.  **Environment Variables**: The project relies on environment variables for configuration.
+5.  **Environment Variables**: The project relies on environment variables for configuration. See installation step 2
 
 ## Installation Steps
 
